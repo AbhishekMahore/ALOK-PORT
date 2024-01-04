@@ -2,7 +2,7 @@ name: ALOK Deployment
 
 on:
   schedule:
-    - cron: "2 * * * *"
+    - cron: "14 6 * * *"
 
 jobs:
   build-and-deploy:
